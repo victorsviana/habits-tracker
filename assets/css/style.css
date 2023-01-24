@@ -1,0 +1,62 @@
+:root {
+    --fonte-padrao: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: white;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+}
+
+button {
+    padding: 16px 24px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #8b5cf6;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+form {
+    display: flex;
+
+}
+
+.days {
+    
+}
+
+input {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 64px;
+    height: 64px;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+    background: #18181b;
+}
+
+input:checked {
+    background-color: #8b5cf6;
+    border: 2px solid #a78bfa;
+}
