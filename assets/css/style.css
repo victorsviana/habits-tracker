@@ -3,9 +3,11 @@
     --fonte-dia: 'Roboto Mono', monospace;
 }
 
+@import url(./media.css);
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -20,6 +22,9 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 48px;
+    position: fixed;
+    width: 100%;
+    background-color: #1b1b1c;
 }
 
 button {
@@ -40,7 +45,8 @@ button {
 
 form {
     display: flex;
-    padding: 0px 48px;
+    padding: 182px 48px 48px;
+    width: fit-content;
 }
 
 .habits {
@@ -94,4 +100,10 @@ input {
 input:checked {
     background-color: #8b5cf6;
     border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) {
+    button div {
+        display: none;
+    }
 }
