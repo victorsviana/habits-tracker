@@ -1,122 +1,143 @@
 :root {
-    --fonte-padrao: 'Inter', sans-serif;
-    --fonte-dia: 'Roboto Mono', monospace;
+  --fonte-padrao: "Inter", sans-serif;
+  --fonte-dia: "Roboto Mono", monospace;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
+  width: 0px;
+  height: 0px;
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #1E1E1E;
-    color: white;
-    height: 100vh;
-    background-image: -webkit-linear-gradient(to right, #1b1b1c, #8a5cf60a,#8a5cf631 ,#8a5cf63d ,#8a5cf652 );
-    background-image: linear-gradient(to right, #1b1b1c, #8a5cf60a,#8a5cf631 ,#8a5cf63d ,#8a5cf652 );
+  background-color: #1e1e1e;
+  color: white;
+  height: 100vh;
+  background-image: -webkit-linear-gradient(
+    to right,
+    #1b1b1c,
+    #8a5cf60a,
+    #8a5cf631,
+    #8a5cf63d,
+    #8a5cf652
+  );
+  background-image: linear-gradient(
+    to right,
+    #1b1b1c,
+    #8a5cf60a,
+    #8a5cf631,
+    #8a5cf63d,
+    #8a5cf652
+  );
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 48px;
-    position: fixed;
-    width: 100%;
-    background-color: #1b1b1c;
-    background-image: linear-gradient(to right, #1b1b1c, #8a5cf60a,#8a5cf631 ,#8a5cf63d ,#8a5cf652 )
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px;
+  position: fixed;
+  width: 100%;
+  background-color: #1b1b1c;
+  background-image: linear-gradient(
+    to right,
+    #1b1b1c,
+    #8a5cf60a,
+    #8a5cf631,
+    #8a5cf63d,
+    #8a5cf652
+  );
 }
 
 button {
-    padding: 16px 24px;
-    font-family: var(--fonte-padrao);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 125%;
-    background-color: transparent;
-    color: white;
-    border-radius: 8px;
-    border: 2px solid #8b5cf6;
+  padding: 16px 24px;
+  font-family: var(--fonte-padrao);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid #8b5cf6;
 
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 button:hover {
-    background-color: #8a5cf656;
-    border: 2px solid #ffffff9a;
-    transition: .5s;
+  background-color: #8a5cf656;
+  border: 2px solid #ffffff9a;
+  transition: 0.5s;
 }
 
 form {
-    display: flex;
-    padding: 182px 48px 48px;
-    width: fit-content;
+  display: flex;
+  padding: 182px 48px 48px;
+  width: fit-content;
 }
 
 .habits {
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .habit {
-    width: 64px;
-    height: 64px;
-    font-size: 32px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .days {
-    display: flex;
-    margin-left: 32px;
-    gap: 48px;
+  display: flex;
+  margin-left: 32px;
+  gap: 48px;
 }
 
 .day {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .day div {
-    margin-bottom: 8px;
-    color: #a1a1aa;
-    font-family: var(--fonte-dia);
-    font-size: 20px;
-    line-height: 125%;
-    text-align: center;
+  margin-bottom: 8px;
+  color: #a1a1aa;
+  font-family: var(--fonte-dia);
+  font-size: 20px;
+  line-height: 125%;
+  text-align: center;
 }
 
 input {
-    appearance: none;
-    -webkit-appearance: none;
-    width: 64px;
-    height: 64px;
-    border: 2px solid #27272A;
-    border-radius: 8px;
-    background: #18181b;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #27272a;
+  border-radius: 8px;
+  background: #18181b;
 }
 
 input:checked {
-    background-color: #8b5cf6;
-    border: 3px solid #c9b8fb;
-    transition: .5s;
+  background-color: #8b5cf6;
+  border: 3px solid #c9b8fb;
+  transition: 0.5s;
 }
 
 @media (max-width: 570px) {
-    button div {
-        display: none;
-    }
+  button div {
+    display: none;
+  }
 }
