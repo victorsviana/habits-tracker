@@ -20,6 +20,7 @@ body {
     background-color: #1E1E1E;
     color: white;
     height: 100vh;
+    background-image: linear-gradient(to right, #1b1b1c, #8a5cf60a,#8a5cf631 ,#8a5cf63d ,#8a5cf652 )
 }
 
 header {
@@ -30,6 +31,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #1b1b1c;
+    background-image: linear-gradient(to right, #1b1b1c, #8a5cf60a,#8a5cf631 ,#8a5cf63d ,#8a5cf652 )
 }
 
 button {
@@ -46,6 +48,12 @@ button {
     display: flex;
     align-items: center;
     gap: 12px;
+}
+
+button:hover {
+    background-color: #8a5cf656;
+    border: 2px solid #ffffff9a;
+    transition: .5s;
 }
 
 form {
@@ -104,7 +112,8 @@ input {
 
 input:checked {
     background-color: #8b5cf6;
-    border: 2px solid #a78bfa;
+    border: 3px solid #c9b8fb;
+    transition: .5s;
 }
 
 @media (max-width: 570px) {
