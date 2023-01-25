@@ -20,7 +20,7 @@ NLW é um evento exclusivo e gratuito, promovido pela Rocketseat para ensino de 
 <h2>Projeto</h2>
 
 <p>
-O Habits é um app para rastrear os hábitos.
+O Habits é um app para ajudar a rastrear os hábitos.
 </p>
 
 - <a href="https://victorsviana.github.io/habits-tracker/">Acesse o aplicativo aqui</a>
