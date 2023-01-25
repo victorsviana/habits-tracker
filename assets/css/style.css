@@ -18,14 +18,6 @@ body {
   background-color: #1e1e1e;
   color: white;
   height: 100vh;
-  background-image: -webkit-linear-gradient(
-    to right,
-    #1b1b1c,
-    #8a5cf60a,
-    #8a5cf631,
-    #8a5cf63d,
-    #8a5cf652
-  );
   background-image: linear-gradient(
     to right,
     #1b1b1c,
